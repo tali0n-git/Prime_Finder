@@ -1,8 +1,9 @@
-# PRIME FINDER:
+## PRIME FINDER:
 
-Prime numbers may have a pattern in their binary form which an AI model could possibly be able to elucidate using certain ML techniques.
+Prime numbers may have a pattern in their binary form which an AI model could possibly elucidate using certain ML techniques.
 
-My goal is to guide the AI into uncovering these patterns, starting with a dataset of binary numbers from 0 to 16,777,216.
+# My goal is to guide the AI into uncovering these patterns, starting with a dataset of binary numbers from 0 to 16,777,216.
+
 
 
 
