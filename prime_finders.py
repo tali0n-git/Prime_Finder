@@ -4,13 +4,13 @@ in binary, to find all prime numbers within that range.
 
 We will need to build upon the hexadecimal_lookup_table.py modules
 to build a list of all possible hexadecimal digits and their binary equivalents,
-ranging from 0000.0000.0000.0000.0000.0000 to FFFF.FFFF.FFFF.FFFF.FFFF.FFFF  (6 hex numbers: can represent 16,777,216 decimal numbers)
+ranging from 0000.0000.0000.0000.0000.0000 to 1111.1111.1111.1111.1111.1111 [HEX: 000000 to FFFFFF] (6 hex numbers: can represent 16,777,216 decimal numbers)
 Indexes from -1 to -24...
 '''
 
 def create_txt_digits(filename, possible_digits_list):
     '''
-    Creating a txt file of all possible digits from 0 to FFFFFFF.
+    Creating a txt file of all possible digits from 0 to FFFFFF.
     '''
     text = ''
     with open(filename, "w") as file:
