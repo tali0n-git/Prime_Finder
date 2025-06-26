@@ -5,10 +5,11 @@ from hexadecimal_lookup_table import create_hex_to_binary_list
 from prime_finders import create_txt_digits
 
 
+# How to iteratively generate files of numbers?
+
 def main():
 
-    #return create_hex_to_binary_list()
-    create_txt_digits("numbers.txt", create_hex_to_binary_list())
+    #create_txt_digits("numbers.txt", create_hex_to_binary_list())
 
 
 
